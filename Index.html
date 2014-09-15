@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CoolTour Madrid</title>
+	<link href='fonts/open-sans.css' rel='stylesheet' type='text/css'>
+	<link href='fonts/pacifico.css' rel='stylesheet' type='text/css'>
+  <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href="css/styles.css" rel="stylesheet"type='text/css'>
+  <link href="css/normalize.css" rel="stylesheet"type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+
+</head>
+<body style="background:url('img/Madrid2.png') no-repeat center; background-size: 100%;">
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+          <h1 class="demo1">Cool Tour Madrid</h1>
+          <h2>¿Quién mejor que la gente de aquí? <br> VEN A MADRID!</h2>
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          <div class="img">
+               <img src="img/graduacion.png">
+          </div>
+          <h1>Un proyecto de estudiantes para estudiantes</h1>
+          <h2>Nuestra misión consiste en proporcionar los servicios de planificación y viaje más completos e integrales para que disfrutes de la experiencia de tu vida: apasionante, cómoda y sin preocupaciones.<br>
+          ¡Estamos deseando que vengas a Madrid!</h2>
+	      </div>
+      </section>
+
+      <section class="page3">
+        <div class="page_container">
+          <h1>Cuatro sencillos pasos</h1>
+        </div>
+        <div class="row-1">
+         <header><h2>Rellena un formulario</h2></header>
+              <p>Queremos saber quién eres.</p>
+        </div>
+        <div class="row-2">     
+         <header><h2>Nos pondremos en contacto</h2></header>
+              <p>Comprobaremos que eres el candidato perfecto.</p>
+        </div>  
+        <div class="row-3">
+         <header><h2>Tarjeta Cooltourízate</h2></header>
+              <p>Consigue importantes descuentos y entra gratis a los museos.</p>
+        </div> 
+        <div class="row-4">    
+         <header><h2>Disfruta de tu estancia</h2></header>
+              <p>Descubre todos los rincones de esta ciudad.</p>
+        </div> 
+        <div class="img">
+            <img src="img/collage.png">
+        </div>
+      </section>
+	    
+	    <section class="page4">
+	      <div class="page_container">
+          <h1>¿Te hemos convencido?</h1>
+          <h2>No esperes más, vas a formar parte de una gran comunidad. Diviértete y disfruta con tus amigos.</h2>
+          <!-- <video>
+            <source src="video/cooltourmadrid.mp4" type="video/mp4" class="video">
+            <source src="video/cooltourmadrid.ogv" type="video/ogv" class="video">
+          </video>  -->
+          <div><a href="https://www.facebook.com/cooltourmadrid"><img src="img/facebook.png" class="icon-facebook"></div></a>
+          <div><a href="https://twitter.com/CoolTourMadrid"><img src="img/twitter.png" class="icon-twitter"></div></a>
+  	    </div>
+      </section>
+
+    </div>
+     <div class="back"><img src="img/Cooltour.png" class="logo"> Cool Tour Madrid <a class="reload btn" href="#">Registrate</a></div>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+    }); 
+  </script>
+</body>
+</html>
